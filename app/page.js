@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Code2, Palette, Sparkles, Users2 } from "lucide-react";
+import { ArrowRight, Sparkles, Home as HomeIcon, Search, Handshake } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
@@ -12,22 +12,22 @@ import {
 
 const features = [
   {
-    icon: Code2,
-    title: "Web Development",
+    icon: HomeIcon,
+    title: "Titip Jual Properti",
     description:
-      "Fast, scalable web applications built with modern tooling and clean architecture.",
+      "Pasarkan properti Anda kepada calon pembeli yang relevan melalui jaringan kami.",
   },
   {
-    icon: Palette,
-    title: "UI Development",
+    icon: Search,
+    title: "Cari Properti",
     description:
-      "Clean, responsive interfaces that feel intuitive on every screen size.",
+      "Temukan rumah, villa, sawah, ruko, atau kontrakan sesuai kebutuhan dan anggaran Anda.",
   },
   {
-    icon: Users2,
-    title: "Consulting",
+    icon: Handshake,
+    title: "Mediasi Transaksi",
     description:
-      "Practical guidance to help you plan and ship your next digital project.",
+      "Kami dampingi proses negosiasi hingga kesepakatan tercapai bagi kedua pihak.",
   },
 ];
 
@@ -44,16 +44,16 @@ export default function Home() {
           <div className="animate-fade-up mx-auto max-w-3xl text-center">
             <div className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-foreground/5 px-4 py-1.5 text-sm text-muted-foreground">
               <Sparkles className="size-3.5" />
-              Welcome to MyWebsite
+              Selamat Datang di Altura Property
             </div>
 
             <h1 className="text-gradient text-4xl font-bold tracking-tight md:text-6xl">
-              Build something meaningful with technology.
+              Menemukan Properti yang Tepat, Tanpa Ribet.
             </h1>
 
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              We help individuals and businesses build modern, simple, and
-              useful digital experiences.
+              Altura Property membantu Anda menjual maupun mencari properti
+              di wilayah Tasikmalaya dengan proses yang transparan.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
@@ -61,7 +61,7 @@ export default function Home() {
                 href="/services"
                 className={cn(buttonVariants({ size: "lg" }), "rounded-full px-6 shadow-lg shadow-primary/20")}
               >
-                Explore Services
+                Lihat Layanan
                 <ArrowRight className="size-4" />
               </Link>
 
@@ -72,7 +72,7 @@ export default function Home() {
                   "rounded-full px-6"
                 )}
               >
-                Contact Us
+                Hubungi Kami
               </Link>
             </div>
           </div>
@@ -82,10 +82,10 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-2xl font-bold tracking-tight md:text-3xl">
-            What we do
+            Apa yang Kami Kerjakan
           </h2>
           <p className="mt-3 text-muted-foreground">
-            A small set of things we focus on, done well.
+            Layanan inti yang kami fokuskan, dikerjakan dengan baik.
           </p>
         </div>
 
@@ -115,11 +115,11 @@ export default function Home() {
 
           <div className="relative">
             <h2 className="text-2xl font-bold tracking-tight md:text-3xl">
-              Have a project in mind?
+              Punya Properti untuk Dijual?
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              Let&apos;s talk about what you&apos;re building and how we can
-              help.
+              Ceritakan properti Anda, dan kami bantu carikan pembeli yang
+              tepat.
             </p>
 
             <Link
@@ -129,7 +129,7 @@ export default function Home() {
                 "mt-8 rounded-full px-6"
               )}
             >
-              Get in touch
+              Hubungi Kami
               <ArrowRight className="size-4" />
             </Link>
           </div>

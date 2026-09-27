@@ -1,4 +1,4 @@
-import { Code2, LineChart, Palette } from "lucide-react";
+import { Home, Search, Calculator, Handshake } from "lucide-react";
 
 import {
   Card,
@@ -9,22 +9,28 @@ import {
 
 const services = [
   {
-    icon: Code2,
-    title: "Web Development",
+    icon: Home,
+    title: "Penitipan & Pemasaran Properti",
     description:
-      "Build modern web applications with a fast, maintainable codebase — from landing pages to full products.",
+      "Properti Anda kami pasarkan kepada calon pembeli yang relevan, dengan strategi yang disesuaikan jenis dan lokasi properti.",
   },
   {
-    icon: Palette,
-    title: "UI Development",
+    icon: Search,
+    title: "Pencarian Properti",
     description:
-      "Create clean and responsive interfaces that stay consistent across devices and themes.",
+      "Bantu menyaring pilihan properti sesuai kriteria dan anggaran Anda — rumah, villa, sawah, ruko, atau kontrakan.",
   },
   {
-    icon: LineChart,
-    title: "Consulting",
+    icon: Calculator,
+    title: "Estimasi Nilai Pasar",
     description:
-      "Get guidance on architecture, tooling, and roadmap for your digital projects.",
+      "Diskusi kisaran harga wajar berdasarkan lokasi, kondisi, dan tren pasar properti terkini.",
+  },
+  {
+    icon: Handshake,
+    title: "Mediasi Negosiasi",
+    description:
+      "Menjembatani komunikasi antara penjual dan pembeli hingga tercapai kesepakatan yang saling menguntungkan.",
   },
 ];
 
@@ -40,8 +46,8 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="mt-4 text-muted-foreground">
-            A focused set of services to help you plan, design, and build
-            your next digital product.
+            Rangkaian layanan untuk membantu Anda menjual maupun mencari
+            properti dengan proses yang jelas dan efisien.
           </p>
         </div>
 

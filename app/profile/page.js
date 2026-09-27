@@ -3,13 +3,13 @@ import { Globe, Mail, MessageCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
-  { value: "20+", label: "Projects" },
-  { value: "5+", label: "Years exp." },
-  { value: "10+", label: "Clients" },
+  { value: "5", label: "Kategori Properti" },
+  { value: "2", label: "Wilayah Cakupan" },
+  { value: "4", label: "Layanan Utama" },
 ];
 
 const social = [
-  { icon: Mail, label: "Email", href: "mailto:hello@mywebsite.com" },
+  { icon: Mail, label: "Email", href: "mailto:property@mywebsite.com" },
   { icon: Globe, label: "Website", href: "/" },
   { icon: MessageCircle, label: "Contact", href: "/contact" },
 ];
@@ -23,19 +23,19 @@ export default function Profile() {
         <Card className="border border-white/10 bg-foreground/[0.03]">
           <CardContent className="flex flex-col items-center text-center">
             <div className="flex size-20 items-center justify-center rounded-full bg-gradient-to-br from-primary/40 to-primary/10 text-2xl font-bold">
-              MW
+              AP
             </div>
 
             <h1 className="mt-4 text-2xl font-bold tracking-tight">
-              MyWebsite Team
+              Agen Properti Wilayah Tasikmalaya
             </h1>
             <p className="text-sm text-muted-foreground">
-              Web &amp; Product Development
+              Perantara Jual-Beli Properti
             </p>
 
             <p className="mt-4 max-w-md text-sm text-muted-foreground">
-              We build modern, simple, and useful digital experiences for
-              individuals and businesses.
+              Menjembatani pemilik dan calon pembeli properti di wilayah
+              Tasikmalaya melalui proses yang transparan dan efisien.
             </p>
 
             <div className="mt-8 grid w-full grid-cols-3 gap-4 border-t border-white/10 pt-6">

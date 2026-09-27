@@ -26,10 +26,9 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="flex flex-col gap-10 sm:flex-row sm:justify-between">
           <div className="max-w-xs">
-            <p className="text-lg font-bold">MyWebsite</p>
+            <p className="text-lg font-bold">Bunga Anisatul Zahra</p>
             <p className="mt-2 text-sm text-muted-foreground">
-              We help individuals and businesses build modern, simple, and
-              useful digital experiences.
+              Company Profile Agen Properti
             </p>
           </div>
 

@@ -23,9 +23,9 @@ const fontSans = localFont({
 });
 
 export const metadata = {
-  title: "MyWebsite — Build something meaningful",
+  title: "CompanyProfile-Bunga",
   description:
-    "We help individuals and businesses build modern, simple, and useful digital experiences.",
+    "Company Profile Agen Properti",
 };
 
 export default function RootLayout({ children }) {

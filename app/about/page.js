@@ -1,16 +1,16 @@
 import { CheckCircle2 } from "lucide-react";
 
 const values = [
-  "Simple, maintainable solutions over complexity",
-  "Clear communication throughout every project",
-  "Design and engineering that work together",
+  "Proses transaksi yang transparan dan efisien",
+  "Komunikasi jelas dari awal hingga transaksi selesai",
+  "Estimasi harga berbasis kondisi pasar terkini",
 ];
 
 const stats = [
-  { value: "20+", label: "Projects shipped" },
-  { value: "5+", label: "Years building" },
-  { value: "10+", label: "Happy clients" },
-  { value: "3", label: "Core services" },
+  { value: "5", label: "Kategori Properti" },
+  { value: "2", label: "Wilayah Cakupan" },
+  { value: "4", label: "Layanan Utama" },
+  { value: "100%", label: "Terpercaya" },
 ];
 
 export default function AboutPage() {
@@ -22,13 +22,14 @@ export default function AboutPage() {
         <div>
           <p className="text-sm font-semibold text-primary">About Us</p>
           <h1 className="mt-2 text-4xl font-bold tracking-tight md:text-5xl">
-            About Us
+            Perantara Terpercaya untuk Jual-Beli Properti
           </h1>
 
           <p className="mt-4 max-w-md text-muted-foreground">
-            We are a team passionate about building useful digital products
-            and experiences — focused on clarity, craft, and outcomes that
-            matter.
+            Altura Property adalah penyedia jasa perantara jual-beli properti
+          yang berfokus pada wilayah Tasikmalaya. Kami menjembatani pemilik
+          properti dengan calon pembeli melalui proses yang transparan dan
+          efisien.
           </p>
 
           <ul className="mt-8 space-y-3">
