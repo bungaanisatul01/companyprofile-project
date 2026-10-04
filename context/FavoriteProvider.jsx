@@ -1,3 +1,6 @@
+export { FavoriteProvider, useFavorite } from "@/context/FavoriteContext";
+
+/* VERSI LAMA (disimpan sebagai cadangan)
 "use client";
 import { useContext, useState } from "react";
 import { FavoriteContext } from "@/context/FavoriteContext";
@@ -25,3 +28,4 @@ export function FavoriteProvider({ children }) {
 export function useFavorite() {
   return useContext(FavoriteContext);
 }
+*/

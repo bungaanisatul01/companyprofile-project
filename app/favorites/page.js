@@ -13,7 +13,9 @@ export default function FavoritesPage() {
       .then((data) => setUsers(data));
   }, []);
 
-  const favoriteUsers = users.filter((user) => favorites.includes(user.id));
+  const favoriteUsers = users.filter((user) =>
+    favorites.some((f) => f.id === user.id)
+  );
 
   return (
     <main className="min-h-screen bg-neutral-950 p-8 text-white">
