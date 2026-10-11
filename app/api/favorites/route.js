@@ -5,7 +5,23 @@ export async function GET() {
 }
 
 export async function POST(request) {
-  const body = await request.json();
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return Response.json(
+      { error: "Body request tidak boleh kosong dan harus berupa JSON yang valid" },
+      { status: 400 }
+    );
+  }
+
+  if (!body || Object.keys(body).length === 0) {
+    return Response.json(
+      { error: "Body request tidak boleh kosong" },
+      { status: 400 }
+    );
+  }
+
   const result = addFavorite(body);
 
   if (!result.success) {
